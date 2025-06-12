@@ -84,13 +84,12 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    color: white;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.webp");
+    ,url("media/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -142,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.png");
+    ,url("media/front-end.jpg");
 
 }
 
@@ -152,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/media/programador-fullstack.jpg");
+    ,url("media/full-stack.jpg");
 }
 
 .carta:nth-child(3){
@@ -252,7 +251,7 @@ footer .container{
     }
 
     #somos-proya .img-container{
-        background-image: url("media/que-hace-un-programador-de-software.webp");
+        background-image: url("media/somos-proya.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -292,7 +291,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end.png");
+        ,url("media/front-end-cropped.jpg");
 
     }
 
@@ -302,7 +301,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/programador-fullstack.jpg");
+        ,url("media/full-stack-cropped.jpg");
     }
 
     .carta:nth-child(3){
@@ -311,12 +310,12 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python.jpg");
+        ,url("media/python-cropped.jpg");
 
     }
 
     #caracteristicas{
-        background-image: url("media/caracteristicas-is.jpg");
+        background-image: url("media/background-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
@@ -335,14 +334,13 @@ footer .container{
     }
 
     #final button{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     footer .container{
         justify-content: flex-end;
     }
-
-    }
+}
 
 @media (min-width: 1200px) {
     #caracteristicas{
